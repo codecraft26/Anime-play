@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,500&family=Roboto:wght@400;500&display=swap'); 
+
+
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+:root{
+   --primary-text-color:#999206;
+   --secondry-text-color:#577592;
+
+   --accent-color:#2294ed;
+   --accent-color-dark:#1d69a3;
+   --padding-inline-section:20px;
+
+
+}
+body{
+   font-family: 'Noto',sans-serif;
+   color: var(--primary-text-color);
+}
+h1{
+
+  font-size: 3rem;
+
+
+}
+h2{
+  font-size: 2rem;
+
+}
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+  font-family: 'Roboto';
+  font-size: 1.25rem;
+  color: var(--secondry-text-color);
+  line-height: 1.8rem;
+}
+
+a{
+  text-decoration: none;
+}
+/* utility clasess */
+
+.small-bold-text{
+font-size: 1rem;  
+font-weight: 700;
+}
+/* uitlity class container
+*/
+
+.container{
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline-section);
+
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+ul{
+  list-style: none;
+}
+.hover-links:hover{
+  color: #999206;
+  transition: 0.2s ease-out;
+   
+
+}
