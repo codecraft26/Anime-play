@@ -1,7 +1,8 @@
 
     .main-nav{
         margin-top: 20px;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
      }
      
      .nav-links {

@@ -5,6 +5,8 @@
    margin: 0px;
    padding: 0px;
    box-sizing: border-box;
+   background-color:linar;
+  
 }
 :root{
    --primary-text-color:#999206;
@@ -18,7 +20,8 @@
 }
 body{
    font-family: 'Noto',sans-serif;
-   color: var(--primary-text-color);
+   color:black;
+ 
 }
 h1{
 
